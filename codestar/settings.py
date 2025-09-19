@@ -32,6 +32,8 @@ import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
+SECRET_KEY = os.environ.get("SECRET_KEY")
+
 
 # Application definition
 
